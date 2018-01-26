@@ -1,0 +1,109 @@
+/* 3D Css button rerence:https://designmodo.com/3d-css3-button/
+/*Gradient Generated from http://www.colorzilla.com/gradient-editor/ */
+body{
+  background: silver;
+  font-family: 'Orbitron', sans-serif;
+}
+#calc{
+  position:absolute;
+  top:250px;
+  left:50%;
+  width: 280px;
+  height: 430px;
+  border-radius: 14px;
+  transform: translate(-50%,-50%);  
+  border: 1px solid #5b6377;
+  box-shadow: -1px 15px 35px #51586a,inset 2px 2px 0px rgba(91,99,119,.8);
+  
+/*   background: rgb(178,183,182); /* Old browsers */
+/*   background: linear-gradient(to right, rgba(178,183,182,1) 0%,rgba(102,111,133,1) 4%,rgba(158,167,191,1) 97%,rgba(78,92,90,1) 100%,rgba(14,14,14,1) 100%,rgba(112,128,132,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  
+  background: rgb(178,183,182); /* Old browsers */
+  background: linear-gradient(to right, rgba(157,160,160,1) 0%,rgba(102,111,133,1) 3%,rgba(102,111,133,1) 97%,rgba(78,92,90,1) 100%,rgba(14,14,14,1) 100%,rgba(112,128,132,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#display{
+  position:relative;
+  background: #bfc3c7;
+  width: 242px;
+  height:60px;
+  border-radius: 7px;
+  margin:auto;
+  margin-top: 15px;
+  border: 2px solid #828891;
+}
+#mainDisp{
+  position:relative;
+  margin-right: 7px;
+  padding-top: 0px;
+  font-size: 25px;  
+}
+#subDisp{
+  position:absolute;
+  left: 5px;
+  margin-top: 40px;
+  color:#625D56;
+  font-size: 15px;
+}
+#btnR{
+  position:relative;
+  left: 14px;
+  top:20px;
+}
+button{
+  outline: none !important;
+  transition: all .1s ease-in-out;
+  
+}
+button:active{
+  transform: translate(0, 2px);  
+}
+.btn{
+  width: 48px;
+  height: 46px;
+  margin: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+   box-shadow: -2px 1px 5px #51586a,inset 0px -1px 0px rgba(255,255,255,.3);
+    
+  /*background: linear-gradient(to bottom, rgba(66,74,90,1) 0%,rgba(66,74,90,1) 13%,rgba(66,74,90,1) 88%,rgba(48,57,80,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  
+  background: rgb(66,74,94); /* Old browsers */
+  background: -webkit-linear-gradient(top, rgba(66,74,94,1) 0%,rgba(74,83,104,1) 33%,rgba(44,53,74,1) 100%); /* Chrome10-25,Safari5.1-6 */
+
+  text-shadow: 1px  2px 3px rgba(0,0,0,.5);  
+}
+.btnEual{
+  width: 48px;
+  height: 104px;
+  top: -96px;
+  left: 205px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  position: relative;
+}
+.red{
+  /* Generated from http://www.colorzilla.com/gradient-editor/ */
+  font-size: 13px;
+  background: rgb(176,16,51); /* Old browsers */
+  background: linear-gradient(to bottom, rgba(176,16,51,1) 0%,rgba(154,14,44,1) 27%,rgba(125,9,34,1) 84%,rgba(125,9,34,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  
+  /*background: linear-gradient(to bottom, rgba(118,38,74,1) 0%,rgba(118,38,74,1) 13%,rgba(118,38,74,1) 88%,rgba(100,28,57,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  
+  text-shadow: 1px  2px 3px rgba(0,0,0,.5);
+}
+h5{
+  font-weight: bold;
+  text-align: center;
+  font-size: 13px;
+}
+#head{
+  margin-top: 15px;
+}
+#footer{
+  position: relative;
+  top: 520px;
+  font-size: 10px;
+}
